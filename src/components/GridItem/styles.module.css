@@ -1,0 +1,35 @@
+.level {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px ;
+    color: #f9f9f9;
+    cursor: pointer;
+    height: 100%;
+}
+
+.level .level__icon {
+    background-color: rgba(0,0,0, .2);
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.level .level__title {
+    font-weight: bold;
+}
+
+.level .level__info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.level .level__youImc {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
